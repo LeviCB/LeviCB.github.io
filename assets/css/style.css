@@ -29,6 +29,9 @@ $phone: 480px;
   body {
     background-color: pink;
   }
+  #social {
+    display: none;
+  }
   #hyper-links {
     background-color: blue;
     box-shadow: 0 3px 2rem rgba(0,0,0,.75);
