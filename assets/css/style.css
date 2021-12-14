@@ -149,6 +149,7 @@ header .logo {
   height: 78px;
   padding: 15px;
   font-size: 3vw;
+  justify-content: center;
   color: black;
   text-decoration: none;
   font-family: "Hammersmith One", sans-serif;
@@ -164,6 +165,17 @@ header ul {
   margin-right: 0px;
   justify-content: center;
   align-items: center;
+}
+header ul #social li a {
+  background-color: yellow;
+  position: relative;
+  margin: 0 15px;
+  padding: 14px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
 }
 header ul li {
   position: relative;
