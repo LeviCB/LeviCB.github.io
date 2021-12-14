@@ -140,6 +140,7 @@ header.active {
   height: 4.0rem;
 }
 header .logo {
+  background-color: red;
   position: relative;
   padding-left: 25px;
   font-size: 3vw;
@@ -149,6 +150,7 @@ header .logo {
   transition: 0.6s;
 }
 header ul {
+  background-color: pink;
   position: relative;
   display: flex;
   margin-right: 30px;
@@ -160,6 +162,7 @@ header ul li {
   list-style: none;
 }
 header ul li a {
+  background-color: yellow;
   position: relative;
   margin: 0 15px;
   padding-top: 10px;
