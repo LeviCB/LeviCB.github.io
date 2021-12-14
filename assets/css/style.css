@@ -142,7 +142,7 @@ header.active {
 header .logo {
   background-color: red;
   position: relative;
-  width: auto
+  width: auto;
   height: 100vh;
   font-size: 3vw;
   color: black;
