@@ -142,7 +142,8 @@ header.active {
 header .logo {
   background-color: red;
   position: relative;
-  padding: 20px;
+  width: auto
+  height: 100vh;
   font-size: 3vw;
   color: black;
   text-decoration: none;
