@@ -185,13 +185,6 @@ header ul li a:hover {
   padding: 10px;
   border-radius: 10px;
 }
-.banner {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url("assets/images/wisconsin_capital.png");
-  background-size: cover;
-}
 /*end nav section*/
 .scrollTop {
   position: fixed;
