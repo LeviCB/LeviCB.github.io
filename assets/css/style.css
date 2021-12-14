@@ -165,7 +165,7 @@ header ul li a {
   background-color: yellow;
   position: relative;
   margin: 0 15px;
-  padding-top: 10px;
+  padding: 10px;
   text-decoration: none;
   color: black;
   letter-spacing: 2px;
