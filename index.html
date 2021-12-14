@@ -12,7 +12,7 @@
 <body id="main">
   <div class="scrollTop" onclick="scrollToTop()"></div>
   <header id="header">
-    <a href="" class="logo"><strong>Levii for Governor</strong></a>
+    <a href="" class="logo"><strong>Levi for Governor</strong></a>
     <ul id="list">
       <li><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
       <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
@@ -186,6 +186,41 @@
   </div>
 </foot>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+  /*start of header magic*/
+const head = document.querySelector("#header");
+
+window.onscroll = function () {
+  var top = window.scrollY;
+  if (top >= 5) {
+    head.classList.add("active");
+  } else {
+    head.classList.remove("active");
+  }
+};
+/*end of header magic*/
+
+/*start of navtext color change on scroll*/
+window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY> 0);
+      });
+/*end of navtext color change on scroll*/
+
+/*start of scrollTop*/
+window.addEventListener('scroll', function(){
+    var scroll = document.querySelector('.scrollTop');
+    scroll.classList.toggle("active" , window.scrollY > 500)
+  })
+  
+  function scrollToTop(){
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+/*end of scrollTop*/
+</script>
 </body>
 <footer id="footer">
   <div id="copyright">
