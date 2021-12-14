@@ -154,7 +154,8 @@ header ul {
   background-color: pink;
   position: relative;
   display: flex;
-  margin-right: 30px;
+  padding: inherit;
+  margin-right: 0px;
   justify-content: center;
   align-items: center;
 }
