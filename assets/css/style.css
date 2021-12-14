@@ -32,6 +32,9 @@ $phone: 480px;
   #social {
     display: none;
   }
+  header ul {
+    width: 65%;
+  }
   #hyper-links {
     background-color: blue;
     box-shadow: 0 3px 2rem rgba(0,0,0,.75);
