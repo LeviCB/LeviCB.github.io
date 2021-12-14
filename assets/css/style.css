@@ -150,6 +150,7 @@ header .logo {
   padding: 15px;
   font-size: 3vw;
   justify-content: center;
+  align-items: center;
   color: black;
   text-decoration: none;
   font-family: "Hammersmith One", sans-serif;
@@ -160,7 +161,6 @@ header ul {
   position: relative;
   display: flex;
   width: auto;
-  height: 78px;
   padding: inherit;
   margin-right: 0px;
   justify-content: center;
