@@ -61,7 +61,7 @@ $phone: 480px;
   }
   header {
     height: 100px !important;
-    color: blue;
+    color: blue !important;
   }
   header logo {
     font-size: 5vw;
@@ -100,6 +100,11 @@ $phone: 480px;
     font-size: 30px !important;
   }
 }
+
+
+
+
+
 * {
   margin: 0px;
   padding: 0px;
