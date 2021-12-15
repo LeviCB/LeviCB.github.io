@@ -73,7 +73,6 @@ body {
   bottom: 0px;
   right: 0px;
   margin: auto;
-  margin-top: px;
   margin-right: 25px;
   border-radius: 5px;
 }
@@ -95,6 +94,11 @@ body {
 content .social-buttons {
     display: none;
   }
+ content .buttons {
+   background-color: red;
+   width: auto;
+   height: auto;
+ }
 #content h3 {
   color: black;
   padding-top: 60px;
