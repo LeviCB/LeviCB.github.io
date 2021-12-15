@@ -166,15 +166,7 @@ header ul {
   justify-content: center;
   align-items: center;
 } 
-header ul #social li a {
-  background-color: yellow;
-  position: relative;
-  padding: 14px;
-  text-decoration: none;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 500px;
-  transition: 0.6s;
+header ul #social {
 }
 header ul li {
   position: relative;
