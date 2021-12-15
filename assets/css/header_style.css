@@ -42,8 +42,9 @@ header ul {
   justify-content: center;
   align-items: center;
 } 
-header ul fab {
+header ul .fab {
   background-color: pink;
+  display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
