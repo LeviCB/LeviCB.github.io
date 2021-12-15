@@ -14,10 +14,10 @@ $phone: 480px;
   header {
     height: 100px !important;
     background-color: blue !important;
-    color: white;
+    color: white !important;
   }
   header logo {
-    font-size: 75px;
+    font-size: 75px !important;
   }
   #social {
     display: none;
