@@ -43,7 +43,10 @@ header ul {
   align-items: center;
 } 
 header ul fab {
-  
+  background-color: pink;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 header ul li {
   position: relative;
