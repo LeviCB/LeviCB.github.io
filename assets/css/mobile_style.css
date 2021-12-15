@@ -21,7 +21,7 @@ $phone: 480px;
     color: white !important;
   }
   header .fab {
-    display: ;
+    display: none;
   }
   header ul li a {
     font-size: 30px !important;
