@@ -1,0 +1,44 @@
+@media only screen and (max-device-width:480px) and (min-width:200px) {
+  body {
+  }
+  header {
+    height: 100px !important;
+    color: blue !important;
+  }
+  header logo {
+    font-size: 50px;
+  }
+  #social {
+    display: none;
+  }
+  header ul li a {
+    font-size: 30px !important;
+    margin: 0 20px;
+    padding-top: 10px;
+}
+  #my-image {
+    margin-top: 150px !important;
+  }
+  #hyper-links {
+    font-size: 30px;
+    min-width: 575px;
+    min-height: 950px;
+}
+  #hyper-links h3 {
+    padding: 15px !important;
+}
+  #hyper-links a {
+    padding: 15px !important;
+    font-weight: 500px !important;
+}
+  .scrollTop {
+  bottom: 150px !important;
+  right: 75px !important;
+  width: 85px !important;
+  height: 85px !important;
+  background-size: 60px !important;
+}
+  #content-wrapper {
+    font-size: 30px !important;
+  }
+}
