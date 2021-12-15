@@ -1,0 +1,25 @@
+/*
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+*/
+
+@media only screen and (max-width:1024px) and (min-width: 768px) {
+  body {
+    background-color:;
+  }
+  #hyper-links {
+    background-color: blue;
+  }
+  #content-text {
+    flex-direction: column;
+  }
+  #content-wrapper {
+    display: flex;
+    column-gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

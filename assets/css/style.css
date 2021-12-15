@@ -7,56 +7,6 @@ $tablet: 768px;
 $phone: 480px;
 */
 
-@media only screen and (max-width:1024px) and (min-width: 768px) {
-  body {
-    background-color:;
-  }
-  #hyper-links {
-    background-color: blue;
-  }
-  #content-text {
-    flex-direction: column;
-  }
-  #content-wrapper {
-    display: flex;
-    column-gap: 40px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-}
-@media only screen and (max-width:768px) and (min-width: 480px) {
-  body {
-    background-color: pink;
-  }
-  #social {
-    display: none;
-  }
-  #hyper-links {
-    background-color: blue;
-    box-shadow: 0 3px 2rem rgba(0,0,0,.75);
-    width: 375px;
-    height: 500px;
-    position: absolute;
-    padding: 50px;
-    display: flex;
-    border: 1px black solid;
-    flex-direction: column;
-    z-index: 1;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    margin: auto;
-    margin-top: 60px;
-    margin-right: 25px;
-    border-radius: 5px;
-}
-  #content-wrapper {
-    font-size: 5px;
-  }
-}
-
 
 
 * {
@@ -84,86 +34,6 @@ body {
   margin-top: 100px;
   margin-left: 50px;
 }
-
-/*start nav section*/
-header {
-  position: fixed;
-  background: rgba(0, 0, 255, 0.1);
-  box-shadow: 0 3px 2rem rgba(0,0,0,.75);
-  width: 100%;
-  display: flex;
-  height: 78px;
-  top: 0px;
-  left: 0px;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-header.sticky {
-  color: white;
-}
-header.active {
-  background-color: rgba(0,0,100,1.00);
-  transition: 1.0s;
-  box-shadow: 0 3px 2rem rgba(0,0,0,.75);
-  height: 4.0rem;
-}
-header .logo {
-  position: relative;
-  width: auto;
-  height: 78px;
-  padding: 25px;
-  font-size: 3vw;
-  color: black;
-  text-decoration: none;
-  font-family: "Hammersmith One", sans-serif;
-  transition: 0.6s;
-}
-header ul {
-  background-color: ;
-  position: relative;
-  display: flex;
-  width: auto;
-  padding: inherit;
-  margin-right: 0px;
-  justify-content: center;
-  align-items: center;
-} 
-header ul fab {
-  
-}
-header ul li {
-  position: relative;
-  list-style: none;
-}
-header ul li a {
-  background-color: ;
-  position: relative;
-  margin: 0 15px;
-  padding: 14px;
-  text-decoration: none;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 500px;
-  transition: 0.6s;
-}
-header.sticky .logo,
-header.sticky ul li a {
-  color: white;
-}
-header.sticky ul li a:hover {
-  background: rgba(0,0,145,1.00);
-  border: 1.5px white solid;
-  padding: 10px;
-  border-radius: 10px;
-}
-header ul li a:hover {
-  background: rgba(0,0,100,1.00);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-}
-/*end nav section*/
 .scrollTop {
   position: fixed;
   bottom: 800px;
@@ -249,45 +119,4 @@ header ul li a:hover {
 }
 #content p {
   padding-top: 20px;
-}
-
-#foot {
-  background-color: rgba(0,0,100,1.00);
-  box-shadow: 0 3px 2rem rgba(0,0,0,.75);
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  height: 150px;
-  width: 100%;
-  justify-content: space-around;
-}
-#foot #address {
-  margin-top: 30px;
-}
-#foot #address H3{
-  color: white;
-  padding: 5px;
-}
-#foot #contact {
-  margin-top: 30px;
-}
-#foot #contact H4,
-#foot #contact H3{
-  color: white;
-  padding: 5px;
-}
-#footer {
-  margin: 0px;
-  padding: 0px;
-  height: 75px;
-  display: flex;
-  background-color: rgba(0,0,100,1.00);
-  border-top: 2px black solid;
-  justify-content: center;
-}
-#footer #copyright {
-}
-#footer #copyright h4 {
-  color: white;
-  margin-top: 15px;
 }
