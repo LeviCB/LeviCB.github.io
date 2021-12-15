@@ -62,11 +62,14 @@ $phone: 480px;
   header {
     height: 100px !important;
   }
+  header logo {
+    font-size: 4vw;
+  }
   #social {
     display: none;
   }
   header ul li a {
-    font-size: 22px !important;
+    font-size: 30px !important;
     margin: 0 15px;
     padding-top: 10px;
 }
@@ -157,7 +160,7 @@ header .logo {
   transition: 0.6s;
 }
 header ul {
-  background-color: pink;
+  background-color: ;
   position: relative;
   display: flex;
   width: auto;
@@ -166,14 +169,15 @@ header ul {
   justify-content: center;
   align-items: center;
 } 
-header ul #social {
+header ul fab {
+  
 }
 header ul li {
   position: relative;
   list-style: none;
 }
 header ul li a {
-  background-color: yellow;
+  background-color: ;
   position: relative;
   margin: 0 15px;
   padding: 14px;
