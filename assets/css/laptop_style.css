@@ -13,7 +13,7 @@ $phone: 480px;
     background-color: blue;
   }
   content .social-buttons {
-    display: none;
+    display: ;
   }
   #content-text {
     flex-direction: column;
