@@ -33,7 +33,7 @@ header .logo {
   transition: 0.6s;
 }
 header ul {
-  background-color: ;
+  background-color: red;
   position: relative;
   display: flex;
   width: auto;
