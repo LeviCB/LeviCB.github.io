@@ -103,6 +103,19 @@ body {
   justify-content: center;
   align-items: center;
  }
+ content .buttons .social-buttons li {
+   position: relative;
+   list-style: none;
+ }
+ content .buttons .social-buttons li a {
+  position: relative;
+  margin: 0 15px;
+  padding: 14px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 500px;
+ }
 #content h3 {
   color: black;
   padding-top: 60px;
