@@ -10,7 +10,7 @@ $phone: 480px;
   body {
     background-color: pink;
   }
-  #social {
+  header #list {
     display: none;
   }
   #hyper-links {

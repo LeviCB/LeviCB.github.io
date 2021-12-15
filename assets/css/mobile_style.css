@@ -20,7 +20,7 @@ $phone: 480px;
     font-size: 35px !important;
     color: white !important;
   }
-  header .fab {
+  header #list {
     display: none;
   }
   header ul li a {
