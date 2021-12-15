@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+/*
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+*/
+
+
 @media only screen and (max-device-width:480px) and (min-width:200px) {
   body {
   }
   header {
     height: 100px !important;
-    color: blue !important;
+    background-color: blue !important;
   }
   header logo {
     font-size: 50px;
