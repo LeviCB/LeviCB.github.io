@@ -8,6 +8,9 @@
   width: 100%;
   justify-content: space-around;
 }
+foot h3 {
+    font-size: 30px;
+}
 #foot #address {
   margin-top: 30px;
 }
@@ -22,7 +25,6 @@
 #foot #contact H3{
   color: white;
   padding: 5px;
-  font-size: 40px;
 }
 #footer {
   margin: 0px;
