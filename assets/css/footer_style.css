@@ -1,5 +1,5 @@
 #foot {
-  background-color: rgba(0,0,100,1.00);
+  background-color: blue;
   box-shadow: 0 3px 2rem rgba(0,0,0,.75);
   display: flex;
   margin: 0px;
@@ -22,13 +22,14 @@
 #foot #contact H3{
   color: white;
   padding: 5px;
+  font-size: 20px;
 }
 #footer {
   margin: 0px;
   padding: 0px;
   height: 75px;
   display: flex;
-  background-color: rgba(0,0,100,1.00);
+  background-color: blue;
   border-top: 2px black solid;
   justify-content: center;
 }
