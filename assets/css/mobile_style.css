@@ -20,7 +20,7 @@ $phone: 480px;
     font-size: 35px !important;
     color: white !important;
   }
-  #social {
+  header .fab {
     display: none;
   }
   header ul li a {
