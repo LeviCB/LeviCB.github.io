@@ -18,6 +18,7 @@ $phone: 480px;
   }
   header logo {
     font-size: 75px !important;
+    color: white !important;
   }
   #social {
     display: none;
@@ -26,6 +27,7 @@ $phone: 480px;
     font-size: 30px !important;
     margin: 0 20px;
     padding-top: 10px;
+    color: white !important;
 }
   #my-image {
     margin-top: 150px !important;
