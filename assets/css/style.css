@@ -61,16 +61,17 @@ $phone: 480px;
   }
   header {
     height: 100px !important;
+    color: blue;
   }
   header logo {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   #social {
     display: none;
   }
   header ul li a {
     font-size: 30px !important;
-    margin: 0 15px;
+    margin: 0 20px;
     padding-top: 10px;
 }
   #my-image {
