@@ -16,7 +16,7 @@ $phone: 480px;
     background-color: blue !important;
     color: white !important;
   }
-  header logo {
+  header .logo {
     font-size: 75px !important;
     color: white !important;
   }
