@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
 
 /*
 $desktop: 1200px;
@@ -21,7 +21,7 @@ $phone: 480px;
     color: white !important;
   }
   header .fab {
-    display: none;
+    display: ;
   }
   header ul li a {
     font-size: 30px !important;
