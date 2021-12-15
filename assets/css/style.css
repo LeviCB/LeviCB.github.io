@@ -62,6 +62,9 @@ $phone: 480px;
   header {
     height: 100px !important;
   }
+  #social {
+    display: none;
+  }
   header ul li a {
     font-size: 22px !important;
     margin: 0 15px;
