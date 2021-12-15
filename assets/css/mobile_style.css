@@ -51,6 +51,9 @@ $phone: 480px;
   height: 85px !important;
   background-size: 60px !important;
 }
+content .social-buttons {
+    display: visible;
+  }
   #content-wrapper {
     font-size: 30px !important;
   }
