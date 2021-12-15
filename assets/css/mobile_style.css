@@ -13,7 +13,7 @@ $phone: 480px;
   }
   header {
     height: 100px !important;
-    background-color: blue !important;
+    background-color: rgba(0,0,100,1.00) !important;
     color: white !important;
   }
   header .logo {

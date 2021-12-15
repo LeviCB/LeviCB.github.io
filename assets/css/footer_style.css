@@ -1,5 +1,5 @@
 #foot {
-  background-color: blue;
+  background-color: rgba(0,0,100,1.00);
   box-shadow: 0 3px 2rem rgba(0,0,0,.75);
   display: flex;
   margin: 0px;
@@ -32,7 +32,7 @@ foot h3 {
   padding: 0px;
   height: 75px;
   display: flex;
-  background-color: blue;
+  background-color: rgba(0,0,100,1.00);
   border-top: 2px black solid;
   justify-content: center;
 }
