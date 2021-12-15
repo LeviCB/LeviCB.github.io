@@ -9,7 +9,7 @@
   justify-content: space-around;
 }
 foot h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 #foot #address {
   margin-top: 30px;
@@ -37,7 +37,7 @@ foot h3 {
 }
 #footer #copyright {
 }
-#footer #copyright h4 {
+#footer #copyright h3 {
   color: white;
   margin-top: 15px;
 }
