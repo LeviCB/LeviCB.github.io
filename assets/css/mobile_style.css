@@ -9,7 +9,8 @@ $phone: 480px;
 
 
 @media only screen and (max-device-width:480px) and (min-width:200px) {
-  body {
+  @media screen and (orientation: portrait) {
+    ...
   }
   header {
     height: 100px !important;
