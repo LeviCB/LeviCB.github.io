@@ -98,7 +98,7 @@ body {
    display: flex;
    margin: 0px;
    justify-content: space-around;
-   flex-flow: colume;
+   flex-flow: column;
    align-items: center;
  }
  content .buttons .social-buttons {
