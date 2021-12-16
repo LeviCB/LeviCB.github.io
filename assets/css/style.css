@@ -117,6 +117,9 @@ body {
   font-size: 20px;
   font-weight: bolder;
  }
+ content .buttons .social-buttons li a:hover {
+   background-color: rgba(0,100,255,1.00);
+ }
 #content h3 {
   color: black;
   padding-top: 60px;
