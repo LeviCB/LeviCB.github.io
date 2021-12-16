@@ -96,6 +96,7 @@ body {
    width: auto;
    height: 75px;
    display: flex;
+   margin: 20px;
    justify-content: space-around;
  }
  content .buttons .social-buttons {
@@ -107,12 +108,14 @@ body {
  }
  content .buttons .social-buttons li a {
   background-color: rgba(0,0,100,1.00);
+  color: white;
   margin: 30px;
   padding: 20px;
+  border-radius: 40px;
   text-decoration: none;
   color: black;
   letter-spacing: 5px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
  }
 #content h3 {
