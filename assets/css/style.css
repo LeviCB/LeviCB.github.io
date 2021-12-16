@@ -94,14 +94,17 @@ body {
 
  content .buttons {
    width: auto;
-   height: 75px;
+   height: 250px;
    display: flex;
-   margin: 20px;
+   margin: 0px;
    justify-content: space-around;
+   flex-flow: colume;
+   align-items: center;
  }
  content .buttons .social-buttons {
   display: flex;
   align-items: center;
+  padding: 40px;
  }
  content .buttons .social-buttons li {
    list-style: none;
