@@ -93,24 +93,20 @@ body {
 }
 
  content .buttons {
-   background-color: ;
    width: auto;
    height: 75px;
    display: flex;
    justify-content: space-around;
  }
  content .buttons .social-buttons {
-  position: ;
   display: flex;
-  justify-content: ;
   align-items: center;
  }
  content .buttons .social-buttons li {
-   position: ;
    list-style: none;
  }
  content .buttons .social-buttons li a {
-  position: ;
+  background-color: rgba(0,0,100,1.00);
   margin: 30px;
   padding: 20px;
   text-decoration: none;
